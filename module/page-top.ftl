@@ -14,8 +14,8 @@
                 <a onclick="window.history.go(-1)" style="display: none" class="fa fa-chevron-left"></a>
             </li>
         </div>
-        <div class="avatar">
+        <#--  <div class="avatar">
             <img src="${settings.icon!'${static!}/source/images/logo.png'}" />
-        </div>
+        </div>  -->
     </div>
 </div>

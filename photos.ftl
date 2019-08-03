@@ -1,6 +1,7 @@
 <#include "/common/macro/common_macro.ftl">
 <!DOCTYPE HTML>
 <html>
+<@statistics></@statistics>
 <head>
     <title>图库 · ${options.blog_title!}</title>
     <meta charset="utf-8" />
@@ -44,6 +45,5 @@
 <script src="${static!}/source/plugins/gallery/js/jquery.min.js"></script>
 <script src="${static!}/source/plugins/gallery/js/skel.min.js"></script>
 <script src="${static!}/source/plugins/gallery/js/main.js"></script>
-<@statistics></@statistics>
 </body>
 </html>
